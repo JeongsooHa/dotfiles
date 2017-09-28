@@ -42,7 +42,8 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 set shell=/bin/bash
-set rnu 
+set rnu
+set ruler
 set nu
 set cursorline
 set ai
@@ -54,6 +55,8 @@ syntax on
 
 nnoremap H ^
 nnoremap L $
+nnoremap j k
+nnoremap k j
 
 "IndentLine
 let g:indentLine_color_term = 100
