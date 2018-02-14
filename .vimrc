@@ -45,7 +45,10 @@ set shell=/bin/bash
 set rnu
 set ruler
 set nu
+set background=light
 set cursorline
+hi CursorLine      term=reverse cterm=reverse
+hi CursorColumn term=reverse cterm=reverse
 set ai
 set si
 set showcmd
